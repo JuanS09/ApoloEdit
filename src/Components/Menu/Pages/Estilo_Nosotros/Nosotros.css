@@ -1,0 +1,29 @@
+.Nosotros{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.Principal{
+    display: flex;
+}
+
+.Secundario{
+    margin: 90px;
+}
+
+.Secundario, .imagen1, .imagen2, .imagen3{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Secundario, .Textos{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Puntos{
+    font-size: 20px;
+    text-align: center;
+}

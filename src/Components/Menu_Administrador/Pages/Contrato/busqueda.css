@@ -1,0 +1,54 @@
+.container-4{
+    overflow: hidden;
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 75%;
+}
+
+.container-4 input#search{
+    width: 300px;
+    height: 60px;
+    font-size: 14pt;
+    background: #fff;
+    border: 3px solid;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 45px;
+    padding: 0 10px 0 10px;
+    transition: 0.3s ease all;
+}
+
+.container-4 input#search:focus{
+    border: 3px solid #1888ff;
+    outline: none;
+    box-shadow: 3px 0px 30px gray;
+}
+.container-4 button.icon{
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+    border: none;
+    background: #1888ff;
+    height: 50px;
+    width: 50px;
+    color: black;
+    opacity: 0;
+    font-size: 15pt;
+  
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+}
+
+.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
+}

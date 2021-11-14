@@ -1,0 +1,21 @@
+.loginA{
+    width: 80em;
+    height: 65em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+}
+.containerA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    z-index: 99;
+    width: 95%;
+    height: 65%;
+    padding: 17px 10px;
+    margin-top: 90px;
+}

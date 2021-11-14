@@ -1,0 +1,64 @@
+.encabezadoR{
+    text-align: center;
+}
+
+
+.ContenedorR{
+    margin-left: 300px;
+}
+
+.formulaR{
+display: grid;
+grid-template-columns: 2.5fr 3fr;
+gap: 10px;
+}
+
+.form-labR{
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form-grupo-inpR{
+    position: relative;
+}
+
+.form-inpR{
+    width: 50%;
+    background: #fff;
+    border: 3px solid;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 45px;
+    padding: 0 10px 0 10px;
+    transition: 0.3s ease all;
+    font-size: 20px;
+}
+
+.form-inpR:focus{
+    border: 3px solid #1888ff;
+    outline: none;
+    box-shadow: 3px 0px 30px gray;
+}
+
+.form-grupo-form-btn-enviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+.btR{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    height: 45px;
+    line-height: 45px;
+    width: 90%;
+    background: #1888ff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
